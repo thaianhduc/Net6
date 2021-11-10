@@ -3,6 +3,17 @@ using Microsoft.Extensions.Hosting;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
+
+/*
+ * The builder has a couple of things
+ * 1. Configuration: Setup configuration
+ * 2. Services: Setup services and dependencies
+ * 3. Host, WebHost: Configure the host
+ * 4. Environment: Access the environment variables
+ * 
+ * Finally, it Build the app
+ */
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
