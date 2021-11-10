@@ -5,8 +5,8 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 
 Console.WriteLine("Hello World!");
-var sourceConnString = "Data Source=tcp:b0101-udv-primary-sqs.database.windows.net,1433;Initial Catalog=b0101-udv-event-sqd;User Id=vandasqladmin@b0101-udv-primary-sqs.database.windows.net;Password=8s7WS3XrPfzgDwhg;";
-var destConnString = "Data Source=THAIANHDUC\\MSSQLSERVER01;Initial Catalog=vandadb-dev;User Id=sa;Password=W@rk4Fun;Connect Timeout=300;Encrypt=False;";
+var sourceConnString = "";
+var destConnString = "";
 
 const string eventsTable = "[Events]";
 const string eventOrderingTable = "[EventOrdering]";

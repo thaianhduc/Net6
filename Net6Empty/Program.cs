@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Hosting;
-using System;
+// Enable <ImplicitUsing> allows to have a set of default global using for Web Application
 
 var builder = WebApplication.CreateBuilder(args);
 
